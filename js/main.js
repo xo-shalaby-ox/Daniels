@@ -7,7 +7,6 @@ let buttonBars = document.getElementById("bars-icon");
 
 // Nav
 window.addEventListener("scroll", function(){
-  AOS.refresh();
     if(window.scrollY >= section.offsetTop){
         nav.classList.add("position-fixed");
         nav.style.backgroundColor="#fff" ;
