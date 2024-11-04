@@ -132,22 +132,23 @@ document.addEventListener("click", function(e) {
 });
 
 // SCROLL ARROW UP
-// let spanUp = document.getElementById("top");
+let spanUp = document.getElementById("top");
 
-// window.addEventListener("scroll", function(){
-//   if(window.scrollY > 300){
-//     spanUp.classList.add("show")
-//   }else{
-//     spanUp.classList.remove("show")
-//   }
-// })
+window.addEventListener("scroll", function(){
+  AOS.refresh();
+  if(window.scrollY > 300){
+    spanUp.classList.add("show")
+  }else{
+    spanUp.classList.remove("show")
+  }
+})
 
-// spanUp.addEventListener('click', () => {
-//   window.scrollTo({
-//       top: 0,
-//       behavior: "smooth",
-//   });
-// })
+spanUp.addEventListener('click', () => {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  });
+})
 
 
 
