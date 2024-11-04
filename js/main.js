@@ -26,7 +26,7 @@ window.addEventListener("scroll", function(){
         nav.style.backgroundColor="transparent";
         nav.style.boxShadow="none";
         logo.style.color="#fff";
-        buttonBars.style.backgroundImage="url(../images/bars-icon.JPG)";
+        buttonBars.style.backgroundImage="url(../images/bars-icon.jpg)";
           items.forEach(item => {
             item.style.color ="#fff";
             item.classList.remove("scrolled");
