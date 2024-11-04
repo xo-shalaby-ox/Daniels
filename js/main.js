@@ -12,7 +12,7 @@ window.addEventListener("scroll", function(){
         nav.style.backgroundColor="#fff" ;
         nav.style.boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px";
         logo.style.color="#1c1c1c";
-        buttonBars.src = "images/barsDark.png"
+        buttonBars.src = "/images/barsDark.png"
         items.forEach(item => {
             item.style.color ="#1c1c1c";
             item.classList.add("scrolled")
@@ -26,7 +26,7 @@ window.addEventListener("scroll", function(){
         nav.style.backgroundColor="transparent";
         nav.style.boxShadow="none";
         logo.style.color="#fff";
-        buttonBars.src = "images/bars-icon.jpg";
+        buttonBars.src = "/images/bars-icon.jpg";
           items.forEach(item => {
             item.style.color ="#fff";
             item.classList.remove("scrolled");
